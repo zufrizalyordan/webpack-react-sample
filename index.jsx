@@ -14,5 +14,4 @@ var Index = React.createClass({
 });
 
 React.render(<Index />, document.getElementById("content"))
-
 // React.renderComponent(<Hello />, document.getElementById('content'))
