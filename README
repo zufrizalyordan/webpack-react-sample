@@ -1,5 +1,7 @@
-before opening the index.html on browser,
-run "webpack" on terminal
+before opening the index.html on browser:
+
+1. run "npm install" on terminal
+2. run "webpack" on terminal
 
 see http://webpack.github.io/ if the current machine doesn't have webpack installed
 
