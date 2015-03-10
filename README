@@ -1,0 +1,4 @@
+before opening the index.html on browser,
+run "webpack" on terminal
+
+see http://webpack.github.io/ if the current machine doesn't have webpack installed
