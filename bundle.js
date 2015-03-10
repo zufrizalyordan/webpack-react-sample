@@ -48,7 +48,20 @@
 	'use strict'
 	var React = __webpack_require__(1)
 	var Hello = __webpack_require__(2)
-	React.renderComponent(React.createElement(Hello, null), document.getElementById('content'))
+
+	var Index = React.createClass({displayName: "Index",
+
+	    render: function() {
+	        return (
+	            React.createElement(Hello, null)
+	        );
+	    }
+
+	});
+
+	React.render(React.createElement(Index, null), document.getElementById("content"))
+
+	// React.renderComponent(<Hello />, document.getElementById('content'))
 
 
 /***/ },
