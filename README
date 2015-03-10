@@ -2,3 +2,8 @@ before opening the index.html on browser,
 run "webpack" on terminal
 
 see http://webpack.github.io/ if the current machine doesn't have webpack installed
+
+oh and you need to run the files on a web server,
+if you have Apache running, you can put the files there
+
+or you can use node http server if you have it
