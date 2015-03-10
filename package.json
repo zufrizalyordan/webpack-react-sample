@@ -13,4 +13,9 @@
   ],
   "author": "zufrizalyordan@gmail.com",
   "license": "ISC",
+  "devDependencies": {
+    "jsx-loader": "^0.12.2",
+    "react": "^0.12.2",
+    "webpack": "^1.7.2"
+  }
 }
