@@ -60,7 +60,6 @@
 	});
 
 	React.render(React.createElement(Index, null), document.getElementById("content"))
-
 	// React.renderComponent(<Hello />, document.getElementById('content'))
 
 
@@ -77,10 +76,27 @@
 	/** @jsx React.DOM *//** @jsx React.DOM */
 	'use strict'
 	var React = __webpack_require__(1)
+	var Michael = __webpack_require__(3)
 	module.exports = React.createClass({
 	    displayName: 'HelloReact',
 	    render: function(){
-	        return React.createElement("div", null, "Hello React")
+	        return (
+	            React.createElement("div", null, "Hello React ", React.createElement(Michael, null))
+	        )
+	    }
+	})
+
+/***/ },
+/* 3 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/** @jsx React.DOM *//** @jsx React.DOM */
+	'use strict'
+	var React = __webpack_require__(1)
+	module.exports = React.createClass({
+	    displayName: 'MichaelReact',
+	    render: function(){
+	        return React.createElement("div", null, "My name is Michael")
 	    }
 	})
 
