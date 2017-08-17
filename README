@@ -1,11 +1,12 @@
-before opening the index.html on browser:
+#### Requirements 
+1. node.js
+2. webpack installed globally see http://webpack.github.io/ if the current machine doesn't have webpack installed
 
-1. run "npm install" on terminal
-2. run "webpack" on terminal
+#### Install dependencies
+run `npm install` or `yarn`
 
-see http://webpack.github.io/ if the current machine doesn't have webpack installed
+#### Transpile JSX to JS
+run `webpack`
 
-oh and you need to run the files on a web server,
-if you have Apache running, you can put the files there
-
-or you can use node http server if you have it
+#### Other notes 
+you need to run the files on a web server
